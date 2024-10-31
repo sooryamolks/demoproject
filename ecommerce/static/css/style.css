@@ -1,0 +1,12 @@
+body
+{
+background-color:#D0B0D8}
+
+.footer
+{
+position:fixed;
+bottom:0;
+left:0;
+background-color:pink;
+height:40px;
+width:100%;}

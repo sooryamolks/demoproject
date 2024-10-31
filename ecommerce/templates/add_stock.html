@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="container mt-5 p-3" style="margin-bottom:100px;">
+<form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+
+    <div class="mb-3">
+  <label  class="form-label">Enter the stock</label>
+  <input type="text" class="form-control" value="{{pro.stock}}" placeholder="Enter stock">
+</div>
+
+
+        <div class="mb-3">
+
+  <input type="submit" class="text-center" value="submit">
+</div>
+    </form>
+
+
+    </div>
+
+
+{% endblock %}
